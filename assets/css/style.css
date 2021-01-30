@@ -1,0 +1,163 @@
+/* Body */
+
+/* Navbar */
+.navbar-brand, .navbar-toggler, .nav-link{
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+    position:relative;
+    z-index: 1;
+}
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../../assets/img/background.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    text-align: center;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 150px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+    
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 50px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 5px solid #0B63DC;
+        width: 80%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -10px;    
+    }
+
+    .active{
+        border-bottom: 5px solid #0B63DC;
+        width: 20%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: 10px; 
+        margin-right: 50px;
+          
+    }
+
+    .jumbotron {
+        height: 600px;
+    }
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+
+}
+
+/* section */
+.section {
+    min-height: 500px;
+}
+
+.card-img-top {
+    max-width: 400px;
+}
+
+/* review img */
+#review-img {
+    border-top: 2px solid #0B63DC;
+    border-bottom: 2px solid #dc0b38;
+    border-radius: 10px;
+}
+
+#reviewpar {
+    line-height: 40px;
+}
+
+/* Quote Tweet */
+blockquote {
+    border-left: none;
+    margin:0 auto;
+    padding:0;
+    
+}
+
+blockquote.twitter-tweet {
+    display: inline-block;
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    border-color: #eee #ddd #bbb;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    margin: 10px 5px;
+    padding: 0 16px 16px 16px;
+    max-width: 468px;
+  }
+  
+  blockquote.twitter-tweet p {
+   font-size: 16px;
+   font-weight: normal;
+   line-height: 20px;
+  }
+  
+    blockquote.twitter-tweet a {
+        color: inherit;
+        font-weight: normal;
+        text-decoration: none;
+        outline: 0 none;
+    }
+
+    blockquote.twitter-tweet a:hover,
+    blockquote.twitter-tweet a:focus {
+        text-decoration: underline;
+    }
+
+    /* border line judul  */
+    #border-judul {
+    border-bottom: 8px solid #da2121;
+    width: 25%;
+    margin: auto;
+    padding-bottom: 5px;
+
+    }
+
+    /* section */
+    #section-content {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
